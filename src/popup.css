@@ -1,0 +1,44 @@
+/* normalize css starts here */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* normalize css ends here */
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif;
+  color: #222;
+}
+
+.button-container {
+  margin-top: 15px;
+}
+
+.button {
+  border: 0;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 4px;
+  margin-left: 4px;
+  background-color: bisque;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+  user-select: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+/* trimmed unused styles */

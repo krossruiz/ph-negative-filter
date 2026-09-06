@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>PH Negative Filter - Settings</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <h2>Prompt Filters</h2>
+    <div class="hint">Add, remove, or edit filters used to analyze video titles.</div>
+    <div class="row">
+      <textarea id="newFilter" placeholder="Type a prompt filter here..."></textarea>
+    </div>
+    <div class="row">
+      <button id="addFilterBtn">Add Filter</button>
+      <button id="clearAllBtn">Clear All</button>
+      <button id="restoreDefaultsBtn">Restore Defaults</button>
+      <span id="status" class="hint"></span>
+    </div>
+
+    <div class="row">
+      <button id="saveCombinedBtn" class="button">Save Filters</button>
+    </div>
+
+    <div class="filters" id="filters"></div>
+
+    
+
+    <script src="options.js"></script>
+  </body>
+  </html>
+
+
